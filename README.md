@@ -2,9 +2,13 @@
 
 ![Yelp Logo](https://logos-world.net/wp-content/uploads/2020/11/Yelp-Logo.png)
 
-## 📊 Project Overview
+## 📊 Overview
 
-This project explores the Yelp review dataset to uncover insights about user behavior, business performance, and geographical trends. Using data visualization and statistical analysis, we reveal patterns that can help businesses improve their services and users make better decisions.
+Yelp is a company that provides crowdsourced reviews and online reservation services for local businesses. It was founded in 2004 by former PayPal employees. Yelp allows users to rate and review various types of local businesses on its platform, including restaurants, cafes, hotels, shops, and more. Users can use Yelp to explore others’ opinions and reviews, helping them make more informed consumption decisions.
+
+The Yelp review dataset is a rich collection of review information gathered from the Yelp platform, including ratings, review texts, user information, and business information. By analyzing this data, we can gain insights into user opinions on various business types, uncover valuable patterns such as user preferences and business strengths or weaknesses, and provide targeted advice and recommendations to local businesses and users.
+
+This project aims to analyze the Yelp review dataset to explore trends, patterns, and associations within the data, extracting valuable insights through visualizations, statistical analysis, and network analysis. Through this data analysis, we can gain a deeper understanding of user behavior, business conditions, and social networks within the Yelp review ecosystem, ultimately helping Yelp and its users make better decisions and offer improved services.
 
 ## 🔍 Key Findings
 
