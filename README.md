@@ -19,13 +19,55 @@ The Yelp review dataset is a rich collection of review information gathered from
 
 This project aims to analyze the Yelp review dataset to explore trends, patterns, and associations within the data, extracting valuable insights through visualizations, statistical analysis, and network analysis. Through this data analysis, we can gain a deeper understanding of user behavior, business conditions, and social networks within the Yelp review ecosystem, ultimately helping Yelp and its users make better decisions and offer improved services.
 
-## 🔍 Key Findings
+## 📊 Data Summary and Application Value
 
-- Higher ratings (4★ and 5★) are significantly more common than negative ones, revealing a positivity bias in the Yelp ecosystem
-- Users write substantially longer reviews for negative experiences, investing more effort to justify their dissatisfaction
-- Restaurants, shopping, and food services dominate the Yelp platform, composing over 40% of all businesses
-- Business density follows urban planning patterns—grid-like in American cities vs. organic layouts in European cities
-- Clear check-in patterns emerge with a 30% activity increase on weekends and consistent daily peak times
+Through comprehensive analysis of the Yelp dataset, we've uncovered several valuable insights that have both academic significance and practical applications:
+
+### Key Findings Summary
+
+1. **Positive Rating Bias**: Most businesses (over 60%) receive 3.5 stars or higher, indicating users tend to share positive experiences
+2. **Review Length-Sentiment Relationship**: Negative reviews (1-2 stars) average about 30% longer than positive ones, showing users have stronger expressive desire for negative experiences
+3. **Power Law User Distribution**: A small minority of active users (about 1%) contribute approximately 20% of review content, showing platform dependency on core users
+4. **Geographic Distribution Reflects Urban Planning**: U.S. cities show grid-like business distributions while European cities display organic, radial patterns
+5. **Check-in Patterns Show Clear Temporal Rhythms**: Weekend activity increases by 30%, with daily peaks between 5-7 PM
+
+### Business Application Value
+
+#### Value for Businesses
+
+1. **Reputation Management Strategies**:
+   - Understanding the positive bias in ratings means even a few negative reviews can significantly impact overall perception
+   - Prioritizing responses to negative reviews may yield greater reputation improvement
+   - Focus should be on negative reviews with high "useful" votes, as these have the greatest influence on potential customers
+
+2. **Operational Optimization**:
+   - Adjust staffing based on check-in patterns, increasing service personnel during peak hours (5-7 PM and weekends)
+   - Leverage off-peak hours for special promotions to balance customer flow
+   - Benchmark against industry-leading businesses' keywords (e.g., "service," "value," "experience") to improve operational focus
+
+3. **Location Strategy**:
+   - Select store locations based on city-specific business distribution patterns
+   - Consider intersection locations in U.S. cities to maximize visibility
+   - In European cities, focus on historical pathways and landmark proximity
+
+#### Value for the Yelp Platform
+
+1. **User Engagement Optimization**:
+   - Design strategies to increase one-time users' continued engagement, such as simplified review processes or small rewards
+   - Develop features to balance the length deficit in positive reviews, such as positive review templates or guiding questions
+   - Nurture high-quality content creators to maintain the core user base
+
+2. **Platform Feature Development**:
+   - Develop intelligent recommendation systems based on check-in pattern data to recommend relevant businesses at specific times
+   - Improve search algorithms using sentiment analysis to enhance result relevance
+   - Develop location-based features tailored to different city layouts
+
+3. **Data Product Opportunities**:
+   - Provide competitive analysis tools for businesses based on review text and sentiment analysis
+   - Develop consumer behavior prediction models to help businesses optimize marketing strategies
+   - Create location optimization tools based on city-specific business distribution patterns
+
+
 
 ## 📋 Table of Contents
 
@@ -215,54 +257,6 @@ Through review mining, we identified patterns in how top contributors express se
 - Elite users typically provide more nuanced feedback with specific details
 - Regular users tend toward more polarized sentiment (either very positive or very negative)
 - Users with higher review counts tend to use more moderate language
-
-## 📊 Data Summary and Application Value
-
-Through comprehensive analysis of the Yelp dataset, we've uncovered several valuable insights that have both academic significance and practical applications:
-
-### Key Findings Summary
-
-1. **Positive Rating Bias**: Most businesses (over 60%) receive 3.5 stars or higher, indicating users tend to share positive experiences
-2. **Review Length-Sentiment Relationship**: Negative reviews (1-2 stars) average about 30% longer than positive ones, showing users have stronger expressive desire for negative experiences
-3. **Power Law User Distribution**: A small minority of active users (about 1%) contribute approximately 20% of review content, showing platform dependency on core users
-4. **Geographic Distribution Reflects Urban Planning**: U.S. cities show grid-like business distributions while European cities display organic, radial patterns
-5. **Check-in Patterns Show Clear Temporal Rhythms**: Weekend activity increases by 30%, with daily peaks between 5-7 PM
-
-### Business Application Value
-
-#### Value for Businesses
-
-1. **Reputation Management Strategies**:
-   - Understanding the positive bias in ratings means even a few negative reviews can significantly impact overall perception
-   - Prioritizing responses to negative reviews may yield greater reputation improvement
-   - Focus should be on negative reviews with high "useful" votes, as these have the greatest influence on potential customers
-
-2. **Operational Optimization**:
-   - Adjust staffing based on check-in patterns, increasing service personnel during peak hours (5-7 PM and weekends)
-   - Leverage off-peak hours for special promotions to balance customer flow
-   - Benchmark against industry-leading businesses' keywords (e.g., "service," "value," "experience") to improve operational focus
-
-3. **Location Strategy**:
-   - Select store locations based on city-specific business distribution patterns
-   - Consider intersection locations in U.S. cities to maximize visibility
-   - In European cities, focus on historical pathways and landmark proximity
-
-#### Value for the Yelp Platform
-
-1. **User Engagement Optimization**:
-   - Design strategies to increase one-time users' continued engagement, such as simplified review processes or small rewards
-   - Develop features to balance the length deficit in positive reviews, such as positive review templates or guiding questions
-   - Nurture high-quality content creators to maintain the core user base
-
-2. **Platform Feature Development**:
-   - Develop intelligent recommendation systems based on check-in pattern data to recommend relevant businesses at specific times
-   - Improve search algorithms using sentiment analysis to enhance result relevance
-   - Develop location-based features tailored to different city layouts
-
-3. **Data Product Opportunities**:
-   - Provide competitive analysis tools for businesses based on review text and sentiment analysis
-   - Develop consumer behavior prediction models to help businesses optimize marketing strategies
-   - Create location optimization tools based on city-specific business distribution patterns
 
 ## 🚀 Setup and Installation
 
