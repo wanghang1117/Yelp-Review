@@ -228,17 +228,7 @@ Through review mining, we identified patterns in how top contributors express se
 - Analyze temporal trends in business openings/closings by category
 - Expand sentiment analysis to detect specific aspects (food quality, service, price)
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Yelp for providing the dataset
-- Contributors to the Python data science ecosystem
-
 ---
 
-*Created by [Your Name] - [Your Email/Contact]*
+*Created by [Hang Wang]
 
-*Note: Replace the `screenshots/` image paths with actual image paths in your repository. Create a screenshots folder and save visualization outputs there for best organization.*
