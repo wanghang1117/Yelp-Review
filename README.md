@@ -76,11 +76,10 @@ Through comprehensive analysis of the Yelp dataset, we've uncovered several valu
 - [Business Categories](#business-categories)
 - [Review Analysis](#review-analysis)
 - [Geographical Insights](#geographical-insights)
+- [Sentiment Analysis](#sentiment-analysis)
 - [Check-in Patterns](#check-in-patterns)
 - [User Behavior Analysis](#user-behavior-analysis)
 - [Business Case Study](#business-case-study)
-- [Sentiment Analysis](#sentiment-analysis)
-- [Technology Stack](#technology-stack)
 - [Setup and Installation](#setup-and-installation)
 - [Future Work](#future-work)
 
