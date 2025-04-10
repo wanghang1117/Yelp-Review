@@ -109,6 +109,28 @@ The comparison between U.S. and European cities reveals fascinating urban planni
 - Las Vegas and Phoenix show clear grid patterns reflecting planned urban development
 - Stuttgart and Edinburgh display organic, irregular distributions reflecting centuries of historical growth
 
+## 💭 Sentiment Analysis & Review Mining
+
+### Review Sentiment Distribution
+
+![Sentiment Distribution](screenshots/sentiment_distribution.png)
+
+The sentiment analysis of reviews shows:
+- A normal distribution centered slightly positive (0.2-0.3 on the sentiment scale)
+- Elite Yelp users tend to have more balanced sentiment distribution than regular users
+- Most reviews (>60%) have positive sentiment scores
+- Extremely negative (-1.0) and extremely positive (1.0) reviews are rare
+
+### Positive vs. Negative Words
+
+![Positive Words](screenshots/positive_words.png)
+![Negative Words](screenshots/negative_words.png)
+
+Our word cloud visualization emphasizes:
+- Positive reviews predominantly use words like "good," "great," "best," "love," "amazing," and "definitely"
+- Negative reviews focus on words like "bad," "problem," "terrible," "worst," "horrible," and "disappointed"
+- Emotional intensity and descriptive language are stronger in negative reviews
+
 ## ⏰ Check-in Patterns
 
 ![Check-in Variations](screenshots/checkin_variations.png)
@@ -145,7 +167,7 @@ This insight helps understand platform dynamics and identify influential users.
 ### Word Cloud Analysis
 
 ![Gen Korean BBQ House Word Cloud](screenshots/word_cloud.png)
-
+![Gen Korean BBQ House Word Cloud](screenshots/word_cloud2.png)
 Most frequent terms in reviews for the top business:
 - food (670 occurrences)
 - great (623)
@@ -153,17 +175,23 @@ Most frequent terms in reviews for the top business:
 - place (549)
 - korean (446)
 
-## 💭 Sentiment Analysis
+### Sentiment Word Contribution Analysis
 
-### Positive vs. Negative Words
+![Sentiment Contribution](screenshots/sentiment_contribution.png)
 
-![Positive Words](screenshots/positive_words.png)
-![Negative Words](screenshots/negative_words.png)
+Using the AFINN sentiment lexicon, we quantified the contribution of each word to overall review sentiment:
+- The word "great" has the highest positive sentiment contribution across all reviews
+- "Bad" has the strongest negative sentiment contribution
+- Words like "amazing," "awesome," and "best" are powerful drivers of positive sentiment
+- Negative sentiment is often driven by words like "terrible," "disappointed," and "worst"
 
-Sentiment analysis reveals:
-- Positive reviews emphasize words like "good," "great," "best," "love"
-- Negative reviews focus on "bad," "problem," "terrible," "worst"
-- Emotional intensity is stronger in negative reviews
+### Top User Sentiment Patterns
+
+Through review mining, we identified patterns in how top contributors express sentiment:
+- The top 10 most active reviewers show more balanced sentiment than average users
+- Elite users typically provide more nuanced feedback with specific details
+- Regular users tend toward more polarized sentiment (either very positive or very negative)
+- Users with higher review counts tend to use more moderate language
 
 ## 💻 Technology Stack
 
@@ -211,4 +239,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-*Created by [Hang Wang]
+*Created by [Your Name] - [Your Email/Contact]*
+
+*Note: Replace the `screenshots/` image paths with actual image paths in your repository. Create a screenshots folder and save visualization outputs there for best organization.*
